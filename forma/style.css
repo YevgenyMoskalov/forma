@@ -1,19 +1,19 @@
 body {
     margin: 0;
     margin-left: 50vw;
-    background: url(maxresdefault.jpg) no-repeat;
+    background: url("maxresdefault.jpg") no-repeat;
     background-position: -16vw;
     background-size: 80vw 100vh;
 }
 
 @font-face {
     font-family: "Game of Thrones";
-    src: url('Game of Thrones.ttf');
+    src: url("Game of Thrones.ttf");
 
 }
 
 * {
-    font-family: "serif";
+    font-family: "serif - EB Garamond";
     font-weight: normal;
     color: #d3bb89;
 }
@@ -37,30 +37,32 @@ body {
     outline: none;
     margin-top: 8vh;
     width: 100%;
-    font-size: 3vh;
+    font-size: 2.5vh;
     height: 6vh;
-    background-color: #d3bb89;
+    background-color: #c19a49;
     border: none;
-    font-family: sans-serif;
+    font-family: "Open serif", sans-serif;
     cursor: pointer;
 }
 
 .content {
     display: flex;
     flex-direction: column;
+    margin-left: 0;
 }
 
 label {
     margin-top: 5vh;
 }
 
-#password {
-    font-family: sans-serif;
+.password {
+    padding-bottom: 2vh;
+    font-family: "Open serif", sans-serif;
     margin-top: 2vh;
     outline: none;
     background: none;
     border: none;
-    border-bottom: 0.2vh solid #d3bb89;
+    border-bottom: 2px solid #d3bb89;
     text-decoration: none;
     color: white;
 
@@ -70,13 +72,14 @@ label {
     margin-top: 3vh;
 }
 
-#email {
+.email {
+    padding-bottom: 2vh;
     margin-top: 1vh;
-    font-family: sans-serif;
+    font-family: "Open serif", sans-serif;
     outline: none;
     background: none;
     border: none;
-    border-bottom: 0.2vh solid #d3bb89;
+    border-bottom: 2px solid #d3bb89;
     color: white;
 }
 
@@ -120,55 +123,56 @@ input[type="checkbox"]:checked + .text-box::before {
     margin-left: 25%
 }
 
-#subtitle {
+.subtitle {
     padding-top: 0;
     display: flex;
     flex-direction: column;
     padding-left: 0.5vw;
-    border-left: 0.2vh solid #d3bb89;
+    border-left: 2px solid #d3bb89;
 }
 
-#subtitle label {
-    font-family: sans-serif;
+.subtitle label {
+    font-family: "Open serif", sans-serif;
     font-size: 2vh;
     margin-top: 0;
     color: white;
 }
 
 small {
-    font-family: sans-serif;
+    font-family: "Open serif", sans-serif;
     color: white;
 }
 
-#username {
+.username {
     margin-top: 1vh;
-    font-family: sans-serif;
+    padding-bottom: 2vh;
+    font-family: "Open serif", sans-serif;
     outline: none;
     background: none;
     border: none;
-    border-bottom: 0.2vh solid #d3bb89;
+    border-bottom: 2px solid #d3bb89;
     color: white;
 }
 
-#house {
-    font-family: sans-serif;
+.house {
+    font-family: "Open serif", sans-serif;
     margin-top: 2vh;
     outline: none;
     background: none;
     border: none;
-    border-bottom: 0.2vh solid #d3bb89;
+    border-bottom: 2px solid #d3bb89;
     text-decoration: none;
     color: white;
     height: 5vh;
 }
 
-#house::placeholder {
+.house::placeholder {
     color: white;
     font-size: 2.5vh;
 }
 
 .select-house {
-    font-family: sans-serif;
+    font-family: "Open serif", sans-serif;
     margin-top: 1vh;
     font-size: 2.5vh;
     color: white;
@@ -184,7 +188,7 @@ small {
 
 select {
     background-image: url("darknoise.png");
-    border-bottom: 0.2vh solid #d3bb89;
+    border-bottom: 2px solid #d3bb89;
     -moz-appearance: none;
     -webkit-appearance: none;
 }
@@ -192,17 +196,18 @@ select {
 .preferences {
     padding-top: 3vh;
     margin-top: 2vh;
-    border-top: 0.2vh solid #d3bb89;
+    border-top: 2px solid #d3bb89;
 }
 
-#tokill-list {
-    font-family: sans-serif;
+.tokill-list {
+    font-family: "Open serif", sans-serif;
+    font-size: 2.5vh;
     color: white;
     margin-top: 3vh;
     outline: none;
     background: none;
     border: none;
-    border-bottom: 0.2vh solid #d3bb89;
+    border-bottom: 2px solid #d3bb89;
     resize: none;
 }
 
@@ -212,4 +217,16 @@ input {
 
 .title {
     font-size: 3vh;
+}
+
+.game {
+    font-family: "Game of Thrones";
+}
+
+.small {
+    color: white;
+}
+
+.inputs .div-checkbox {
+    margin-left: 0;
 }
