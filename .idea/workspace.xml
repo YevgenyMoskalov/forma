@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ac881514-e99c-4aa0-97b1-e65cb618058a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/Game of Thrones.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Game of Thrones.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +32,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="457">
-                  <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+                <state relative-caret-position="219">
+                  <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -47,8 +45,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="284">
-                  <caret line="223" selection-start-line="223" selection-end-line="223" />
+                <state relative-caret-position="600">
+                  <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -81,6 +79,7 @@
       <find>url</find>
       <find>game</find>
       <find>font-family</find>
+      <find>div-c</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,18 +190,19 @@
       <workItem from="1562350490596" duration="2850000" />
       <workItem from="1562411695605" duration="5819000" />
       <workItem from="1562422188141" duration="3317000" />
-      <workItem from="1562483777084" duration="1133000" />
+      <workItem from="1562483777084" duration="5582000" />
+      <workItem from="1562503837144" duration="5730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87845000" />
+    <option name="totallyTimeSpent" value="98024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13825503" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14026846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -241,17 +241,17 @@
     <entry file="file://$PROJECT_DIR$/img/maxresdefault.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="223" selection-start-line="223" selection-end-line="223" />
+        <state relative-caret-position="219">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+        <state relative-caret-position="600">
+          <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
         </state>
       </provider>
     </entry>
