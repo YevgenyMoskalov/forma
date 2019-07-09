@@ -181,12 +181,12 @@ small {
     font-size: 2.5vh;
     color: white;
     outline: none;
-    background-image: url("img/darknoise.png");
+
     border: none;
 }
 
 .select-house__option {
-    background-image: url("img/darknoise.png");
+
     color: black;
 }
 
@@ -198,6 +198,7 @@ select {
 }
 
 .preferences {
+    font-size: 3vh;
     padding-top: 3vh;
     margin-top: 2vh;
     border-top: 2px solid #d3bb89;
