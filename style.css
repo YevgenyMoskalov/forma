@@ -11,11 +11,6 @@ body {
     src: url("fonts/Game of Thrones.ttf");
 }
 
-@font-face {
-    font-family: "Open Sans";
-    src: url("fonts/OpenSans-Regular.ttf");
-}
-
 * {
     font-weight: normal;
     color: #d3bb89;
@@ -191,10 +186,8 @@ small {
 }
 
 select {
-    background-image: url("img/darknoise.png");
-    border-bottom: 2px solid #d3bb89;
-    -moz-appearance: none;
-    -webkit-appearance: none;
+    -webkit-appearance: textarea;
+    background: no-repeat;
 }
 
 .preferences {
