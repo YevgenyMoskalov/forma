@@ -37,7 +37,7 @@ body {
     color: white;
     outline: none;
     margin-top: 8vh;
-    width: 100%;
+    width: 50%;
     font-size: 2.5vh;
     height: 6vh;
     background-color: #c19a49;
@@ -56,7 +56,7 @@ label {
     margin-top: 5vh;
 }
 
-.password {
+#password {
     padding-bottom: 2vh;
     font-family: "Open Sans", sans-serif;
     margin-top: 2vh;

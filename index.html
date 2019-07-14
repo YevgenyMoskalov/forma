@@ -5,7 +5,6 @@
   <title>Game of Thrones</title>
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet" type="text/css">
-  <script src="script.js"></script>
 </head>
 <body>
 <section class="image"></section>
@@ -14,15 +13,15 @@
   <form action="" class="inputs" id="first-form">
     <div class="content">
       <label class="title">Enter your email</label>
-      <input type="email" placeholder="arya@westeros.com" class="email">
+      <input type="email" placeholder="arya@westeros.com" class="email" required id="_email">
       <label class="title">Choose secure password</label>
       <small class="small">Must be at least 8 character</small>
-      <input type="password" class="password" minlength="8" placeholder="Password" required>
+      <input type="password" id="password" minlength="8" placeholder="Password" required>
       <div class="div-checkbox">
         <input type="checkbox" id="box">
         <label for="box" class="text-box">Remember me</label>
       </div>
-      <button class="sign-up" type="button" onclick="formVisibility()">Sign up</button>
+      <input type="submit" class="sign-up" id="sign_up" value="Sign up">
     </div>
   </form>
   <form action="" class="second-form" style="display: none" id="second-form">
@@ -56,5 +55,6 @@
     </div>
   </form>
 </section>
+<script src="script.js"></script>
 </body>
 </html>
