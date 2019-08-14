@@ -1,10 +1,17 @@
 <!DOCTYPE html>
+<?php
+$text = "Это текст";
+$title = "Это заголовок";
+?>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Game of Thrones</title>
+  <title><?=$title?></title>
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans&display=swap" rel="stylesheet">
-  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/nice-select.css" rel="stylesheet">
+  <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="js/jquery.nice-select.js"></script>
 </head>
 <body>
 <section class="image"></section>
@@ -34,27 +41,27 @@
       <small>Alpha-numeric username</small>
       <input type="text" placeholder="arya" class="username">
       <label class="title">Your Great House</label>
-      <select class="select-house" name="selecthouse" size="1">
-        <option class="select-house__option" value="" hidden selected disabled>Select House</option>
-        <option class="select-house__option" value="Baratheon of King's Landing">Baratheon of King's Landing</option>
-        <option class="select-house__option" value="Martell">Martell</option>
-        <option class="select-house__option" value="tark">Stark</option>
-        <option class="select-house__option" value="Bolton">Bolton</option>
-        <option class="select-house__option" value="Tully">Tully</option>
-        <option class="select-house__option" value="Arryn of the Eyrie">Arryn of the Eyrie</option>
-        <option class="select-house__option" value="Baelish of Harrenhal">Baelish of Harrenhal</option>
-        <option class="select-house__option" value="Greyjoy">Greyjoy</option>
-        <option class="select-house__option" value="Lannister of Casterly Rock">Lannister of Casterly Rock</option>
-        <option class="select-house__option" value="Tyrell">Tyrell</option>
-        <option class="select-house__option" value="Tyrell of Highgarden">Tyrell of Highgarden</option>
-        <option class="select-house__option" value="Baratheon">Baratheon</option>
-      </select>
+      <div class="nice-select wide div-select" id="nice__select">
+        <span class="current">Baratheon of Dragonstone</span>
+        <ul class="list">
+          <li class="option selected">Baratheon of Dragonstone</li>
+          <li class="option">Martell</li>
+          <li class="option">Stark</li>
+          <li class="option">Bolton</li>
+          <li class="option">Tully</li>
+          <li class="option">Arryn</li>
+          <li class="option">Lannister</li>
+          <li class="option">Tyrell</li>
+          <li class="option">Baratheon</li>
+          <li class="option">Greyjoy</li>
+        </ul>
+      </div>
       <label class="preferences">Your preferences, hobbies, wishes, etc.</label>
       <textarea placeholder="I have a long TOKILL list..." class="tokill-list"></textarea>
       <button class="sign-up" type="button">Save</button>
     </div>
   </form>
 </section>
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
